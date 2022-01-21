@@ -4,7 +4,7 @@ steps:
   entrypoint: 'bash'
   args: [
    '-c', 
-   'docker pull gcr.io/wide-surge-335807/my-app-vue:latest'
+   'docker pull gcr.io/wide-surge-335807/Dockerfile'
   ]
 # Step 2
 - name: gcr.io/cloud-builders/docker
